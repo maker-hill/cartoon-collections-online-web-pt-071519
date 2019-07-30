@@ -16,7 +16,9 @@ def long_planeteer_calls(array)
 end
 
 def find_the_cheese(array)
+  counter = 0 
   cheese_types = ["cheddar", "gouda", "camembert"]
     array.find{|type| type == cheese_types[counter]}
+  counter += 1   
 end
 #[1,2,100].any?{|i| i > 99}
