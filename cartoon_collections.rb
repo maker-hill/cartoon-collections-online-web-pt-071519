@@ -18,7 +18,7 @@ end
 def find_the_cheese(array)
   
   cheese_types = ["cheddar", "gouda", "camembert"]
-    array.find{|type| type == cheese_types.any}
+    array.find{|type| type == any?(cheese_types)}
   
 end
 #[1,2,100].any?{|i| i > 99}
