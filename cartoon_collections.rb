@@ -20,4 +20,3 @@ def find_the_cheese(array)
     array.find{|type| type == any?(cheese_types)}
   
 end
-#[1,2,100].any?{|i| i > 99}
