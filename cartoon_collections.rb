@@ -6,6 +6,9 @@ def roll_call_dwarves(array)
   end
 end
 
+def summon_captain_planey(array)
+  array.collect do |calls|
+    calls.capitalize << "!"
 end
 def long_planeteer_calls(array)
   array.any?{|call| call.length > 4}
